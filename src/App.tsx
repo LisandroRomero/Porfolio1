@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import './App.css'
 
+import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import Landing from './View/Landing/Landing';
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      
+    <Routes>
+      <Route path={"/"} Component={Landing} />
+    </Routes>
     </>
   )
 }
