@@ -1,9 +1,12 @@
-
+import style from "./NavBar.module.css"
 
 const NavBar = () => {
     return (
-        <div>
-            <h1>esto es una navbar</h1>
+        <div className={style.navBar}> 
+              <button>Home</button>
+              <button>About</button>
+              <button>Proyects</button>
+              <button>Contact</button>
              
         </div>
     );

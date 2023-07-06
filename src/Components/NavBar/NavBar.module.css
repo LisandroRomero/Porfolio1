@@ -1,0 +1,9 @@
+.navBar{
+    background-color: bisque;
+    border: 3px ;
+    border-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    align-items: center;
+}
