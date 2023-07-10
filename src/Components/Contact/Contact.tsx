@@ -19,6 +19,7 @@ const Contact = () => {
             emailjs.sendForm('service_6sw49nb', 'template_p1lyzt9', event.target, '8D2wiZJ-ZR66hNTKB')
             .then(response => console.log(response.text))
             .catch((error) =>console.log(error.text));
+           
         }else{
             console.log("complete the form");
         }
