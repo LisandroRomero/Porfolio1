@@ -5,6 +5,7 @@ import Landing from './View/Landing/Landing';
 import NavBar from './Components/NavBar/NavBar';
 import Contact from './Components/Contact/Contact';
 import WhatsAppButton from './Components/WhatsAppButton/WhatsAppButton';
+import Proyects from './Components/Proyects/Proyects';
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
       <NavBar/>
     <Routes>
       <Route path={"/"} Component={Landing} />
+      <Route path={"/Proyects"} Component={Proyects}   />
       <Route path={"/contact"} Component={Contact} />
     </Routes>
       <WhatsAppButton/>
