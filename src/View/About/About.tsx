@@ -1,12 +1,13 @@
-import React from "react";
-
+import styles from "./About.module.css";
 const About = () => {
   return (
-    <>
-      <div>
-        <a href="*">Avatar</a>
-      </div>
-      <div>
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <img
+          className={styles.image}
+          src="src\View\About\etsa.jpg"
+          alt="No carga pa"
+        />
         <h5>Lisandro Romero</h5>
       </div>
       <div>
@@ -25,7 +26,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 };
 
